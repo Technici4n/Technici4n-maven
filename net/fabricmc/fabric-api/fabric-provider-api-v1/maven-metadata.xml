@@ -3,12 +3,13 @@
   <groupId>net.fabricmc.fabric-api</groupId>
   <artifactId>fabric-provider-api-v1</artifactId>
   <versioning>
-    <latest>0.2.0+64c61d8e3a</latest>
-    <release>0.2.0+64c61d8e3a</release>
+    <latest>0.3.0+58a1cb0d3a</latest>
+    <release>0.3.0+58a1cb0d3a</release>
     <versions>
       <version>0.1.0+77d882103a</version>
       <version>0.2.0+64c61d8e3a</version>
+      <version>0.3.0+58a1cb0d3a</version>
     </versions>
-    <lastUpdated>20201126173235</lastUpdated>
+    <lastUpdated>20201202183923</lastUpdated>
   </versioning>
 </metadata>
