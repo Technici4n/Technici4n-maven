@@ -23,3 +23,6 @@ In `gradle.properties`:
 ```properties
 api_provider_version=0.3.0+58a1cb0d3a 
 ```
+
+## FTL setup
+Check [FTL's repository](https://github.com/Technici4n/FastTransferLib).
