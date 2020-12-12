@@ -21,5 +21,5 @@ dependencies {
 ```
 In `gradle.properties`:
 ```properties
-api_provider_version=0.2.0+64c61d8e3a
+api_provider_version=0.3.0+58a1cb0d3a 
 ```
