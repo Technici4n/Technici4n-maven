@@ -3,8 +3,8 @@
   <groupId>net.fabricmc.fabric-api</groupId>
   <artifactId>fabric-transfer-api-v1</artifactId>
   <versioning>
-    <latest>0.1.0+7678d00a7d</latest>
-    <release>0.1.0+7678d00a7d</release>
+    <latest>0.2.0+fbe1f86e7d</latest>
+    <release>0.2.0+fbe1f86e7d</release>
     <versions>
       <version>0.1.0+74fc1dc03a</version>
       <version>0.1.0+e08708c23a</version>
@@ -13,7 +13,8 @@
       <version>0.1.0+4992816a7d</version>
       <version>0.1.0+751df5d17d</version>
       <version>0.1.0+7678d00a7d</version>
+      <version>0.2.0+fbe1f86e7d</version>
     </versions>
-    <lastUpdated>20210414204210</lastUpdated>
+    <lastUpdated>20210531202349</lastUpdated>
   </versioning>
 </metadata>
