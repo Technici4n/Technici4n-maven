@@ -3,8 +3,8 @@
   <groupId>net.fabricmc.fabric-api</groupId>
   <artifactId>fabric-api-lookup-api-v1</artifactId>
   <versioning>
-    <latest>1.2.0+84310a227d</latest>
-    <release>1.2.0+84310a227d</release>
+    <latest>1.1.5+a1b926e93d</latest>
+    <release>1.1.5+a1b926e93d</release>
     <versions>
       <version>0.1.0+5477c4303a</version>
       <version>1.1.0+12d2832d3a</version>
@@ -13,7 +13,8 @@
       <version>0.2.0+74b89fb23a</version>
       <version>1.1.0+84310a227d</version>
       <version>1.2.0+84310a227d</version>
+      <version>1.1.5+a1b926e93d</version>
     </versions>
-    <lastUpdated>20210414213136</lastUpdated>
+    <lastUpdated>20210618124603</lastUpdated>
   </versioning>
 </metadata>
