@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>net.fabricmc.fabric-api</groupId>
+  <artifactId>fabric-data-generation-api-v1</artifactId>
+  <versioning>
+    <latest>0.0.1+f8f4a6586d</latest>
+    <release>0.0.1+f8f4a6586d</release>
+    <versions>
+      <version>0.0.1+f8f4a6586d</version>
+    </versions>
+    <lastUpdated>20211123222714</lastUpdated>
+  </versioning>
+</metadata>
