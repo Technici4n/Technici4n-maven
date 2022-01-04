@@ -3,11 +3,12 @@
   <groupId>net.fabricmc.fabric-api</groupId>
   <artifactId>fabric-data-generation-api-v1</artifactId>
   <versioning>
-    <latest>0.0.1+f8f4a6586d</latest>
-    <release>0.0.1+f8f4a6586d</release>
+    <latest>1.1.0+abf02f7665</latest>
+    <release>1.1.0+abf02f7665</release>
     <versions>
       <version>0.0.1+f8f4a6586d</version>
+      <version>1.1.0+abf02f7665</version>
     </versions>
-    <lastUpdated>20211123222714</lastUpdated>
+    <lastUpdated>20220104235414</lastUpdated>
   </versioning>
 </metadata>
