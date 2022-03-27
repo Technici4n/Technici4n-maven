@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.fabricmc.fabric-api</groupId>
+  <artifactId>fabric-item-api-v1</artifactId>
+  <version>1.4.0+technici4n-stack-aware-attribute-modifiers+38b1a4fd60</version>
+  <dependencies>
+    <dependency>
+      <groupId>net.fabricmc.fabric-api</groupId>
+      <artifactId>fabric-api-base</artifactId>
+      <version>0.4.4+d7c144a860</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>
