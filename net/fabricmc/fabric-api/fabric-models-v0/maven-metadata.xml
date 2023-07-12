@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>net.fabricmc.fabric-api</groupId>
+  <artifactId>fabric-models-v0</artifactId>
+  <versioning>
+    <latest>0.42.42+db7ad43d77</latest>
+    <release>0.42.42+db7ad43d77</release>
+    <versions>
+      <version>0.42.42+db7ad43d77</version>
+    </versions>
+    <lastUpdated>20230712225948</lastUpdated>
+  </versioning>
+</metadata>
