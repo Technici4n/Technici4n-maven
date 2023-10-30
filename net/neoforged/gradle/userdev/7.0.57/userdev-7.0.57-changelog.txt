@@ -1,0 +1,70 @@
+ - `7.0.57` Retry on asset download failure
+ - `7.0.56` Use the source configuration as the target of the task execution dependency
+ - `7.0.55` Use the raw jar providing task directly in the target dependency and not in a wrapper.
+ - `7.0.54` Add classpath data properly since we now do funny things with configurations.
+ - `7.0.53` Fix publishing of maven artifacts and plugin coordinates.
+ - `7.0.52` Fix the tests not working due to the new replacement logic supporting more than one configuration.
+ - `7.0.51` Implement proper clean up of ng_dummy_ng dependencies
+   Add GU 3.x
+   Add versioning
+ - `7.0.50` Merge pull request #9 from neoforged/features/mixin
+   
+   Add mixin support
+ - `7.0.49` Update mixin example
+ - `7.0.48` Remove no longer used code and refactor
+ - `7.0.47` Greatly simplify the mixin plugin
+ - `7.0.46` Change mixin example to use new version
+ - `7.0.45` add mixin support
+ - `7.0.44` Build only NG_ branches going forward
+ - `7.0.43` Update default branch
+ - `7.0.42` Revert "TeamCity change in 'NeoForged / NeoGradle' project: Synchronization with own VCS root is enabled"
+   
+   This reverts commit f958b24fbf7e43d2fd4bd8ba2ea1e930cd6ca351.
+ - `7.0.41` TeamCity change in 'NeoForged / NeoGradle' project: Synchronization with own VCS root is enabled - `7.0.40` Don't serialize values if they produce empty objects.
+ - `7.0.39` Fix userdev and userdev gametest
+ - `7.0.38` Set gameTestServer property in platform
+ - `7.0.37` Run configuration fixes
+ - `7.0.36` Server is starting but not running through.
+ - `7.0.35` Fix permission for gradlew
+ - `7.0.34` Fix userdevJar consuming baked patches.
+ - `7.0.33` Fix 'build' having config cache issues, due to lambda captures.
+ - `7.0.32` Allow building NG* Branches
+ - `7.0.31` Fix the missing annotations.
+ - `7.0.30` Port techs work over.....
+ - `7.0.29` Fix caching on Execute tasks.
+   Custom processing of named files, collections, and gradle IO types.
+   Handle the downloadAssets and extractNatives directory management.
+ - `7.0.28` Fix implementation of Execute caching.
+ - `7.0.27` Run support for Eclipse and Idea
+ - `7.0.26` Fix something weird with the class gen.
+ - `7.0.25` Add support for running mutliple sourcesets from the same mod, in the same project.
+   Each sourceset now can set an identifier, prevent conflicts in SecureJar.
+ - `7.0.24` Setup support for Eclipse runs properly, and add support for Run With IDEA.
+ - `7.0.23` Support for different project source sets in runs.
+   Multi mod setups need a different project per mod, but they can pass around the sourcesets and the system will resolve it properly.
+ - `7.0.22` Support eclipse.
+ - `7.0.21` Always apply the IDEA Run extension.
+ - `7.0.20` Use provider for assetDir and assetIndex
+ - `7.0.19` Automatically run downloadAssets and extractNatives when importing a DynProject.
+ - `7.0.18` Add the asset index and dir to the DynProject
+ - `7.0.17` Remove old Projects.
+   Add DataGen Tasks.
+   Create runnable environment.
+ - `7.0.16` Booting variant, yet still crashing.
+   Likely missing IDE Resource Processing?
+ - `7.0.15` Small typo fix.
+ - `7.0.14` Fix Userdev
+ - `7.0.13` Fix error when building installer on windows
+ - `7.0.12` Not working publishing. We need a custom Component, likely in DynProj.
+ - `7.0.11` Remove a warning.
+ - `7.0.10` Make it run from the console, improve import logic, deal with runs in none IDE scenarios, fix data generator test, make assemble and build run the relevant jar tasks for dyn projects.
+ - `7.0.9` Fix missing inject directory causing error
+ - `7.0.8` Implement new userdev mechanics.
+ - `7.0.7` Create the userdev json.
+ - `7.0.6` Starting to get a working userdev jar.
+ - `7.0.5` Try it with a different point to generate the extra task dependencies.
+ - `7.0.4` Make it compile again. Userdev is now broken, but closer to working.
+ - `7.0.3` [Broken]: Work on UserDev.
+ - `7.0.2` Working installer, still a lot hardcoded.
+ - `7.0.1` Installer is running but patcher is having issues with the hash.
+ - `7.0.0` Update to the latest TW to help with tests.
