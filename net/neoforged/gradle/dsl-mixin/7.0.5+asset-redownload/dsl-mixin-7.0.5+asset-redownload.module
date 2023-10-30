@@ -1,0 +1,272 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.neoforged.gradle",
+    "module": "dsl-mixin",
+    "version": "7.0.5+asset-redownload",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "23.0.0"
+          },
+          "excludes": [
+            {
+              "group": "org.ow2.asm",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.minecraftforge",
+          "module": "groovydslimprover",
+          "version": {
+            "requires": "1.0.4"
+          },
+          "excludes": [
+            {
+              "group": "org.ow2.asm",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.minecraftforge",
+          "module": "groovydslimprover",
+          "version": {
+            "requires": "1.0.4"
+          },
+          "excludes": [
+            {
+              "group": "org.ow2.asm",
+              "module": "*"
+            }
+          ],
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "groovydslimprover",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "base"
+            }
+          }
+        },
+        {
+          "group": "net.minecraftforge",
+          "module": "groovydslimprover",
+          "version": {
+            "requires": "1.0.4"
+          },
+          "excludes": [
+            {
+              "group": "org.ow2.asm",
+              "module": "*"
+            }
+          ],
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "groovydslimprover",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "runtime"
+            }
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-all",
+          "version": {
+            "requires": "3.0.15"
+          },
+          "excludes": [
+            {
+              "group": "org.ow2.asm",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.9.0"
+          },
+          "excludes": [
+            {
+              "group": "org.ow2.asm",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "dsl-mixin-7.0.5+asset-redownload.jar",
+          "url": "dsl-mixin-7.0.5+asset-redownload.jar",
+          "size": 1717,
+          "sha512": "e29bc609b441265ff94acdf2ab0e29c5635a0c250ecb33f79a8829b03ec6a7a380bc53698ba4d72fc8852c65ca38a506d5ccf97f2a2055d862d6c999c8517f94",
+          "sha256": "5a8091903a3f4507fcaef7dbe1cae2f26b7d6a7aba1ad1855aa926344fe49feb",
+          "sha1": "f9934a82add0d43291b5dde57c6f78b2b596a11f",
+          "md5": "9f3b104eb4ba0b81ea88bff418daf882"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "23.0.0"
+          },
+          "excludes": [
+            {
+              "group": "org.ow2.asm",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.minecraftforge",
+          "module": "groovydslimprover",
+          "version": {
+            "requires": "1.0.4"
+          },
+          "excludes": [
+            {
+              "group": "org.ow2.asm",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.minecraftforge",
+          "module": "groovydslimprover",
+          "version": {
+            "requires": "1.0.4"
+          },
+          "excludes": [
+            {
+              "group": "org.ow2.asm",
+              "module": "*"
+            }
+          ],
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "groovydslimprover",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "base"
+            }
+          }
+        },
+        {
+          "group": "net.minecraftforge",
+          "module": "groovydslimprover",
+          "version": {
+            "requires": "1.0.4"
+          },
+          "excludes": [
+            {
+              "group": "org.ow2.asm",
+              "module": "*"
+            }
+          ],
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "groovydslimprover",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "runtime"
+            }
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-all",
+          "version": {
+            "requires": "3.0.15"
+          },
+          "excludes": [
+            {
+              "group": "org.ow2.asm",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.9.0"
+          },
+          "excludes": [
+            {
+              "group": "org.ow2.asm",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "dsl-mixin-7.0.5+asset-redownload.jar",
+          "url": "dsl-mixin-7.0.5+asset-redownload.jar",
+          "size": 1717,
+          "sha512": "e29bc609b441265ff94acdf2ab0e29c5635a0c250ecb33f79a8829b03ec6a7a380bc53698ba4d72fc8852c65ca38a506d5ccf97f2a2055d862d6c999c8517f94",
+          "sha256": "5a8091903a3f4507fcaef7dbe1cae2f26b7d6a7aba1ad1855aa926344fe49feb",
+          "sha1": "f9934a82add0d43291b5dde57c6f78b2b596a11f",
+          "md5": "9f3b104eb4ba0b81ea88bff418daf882"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "dsl-mixin-7.0.5+asset-redownload-sources.jar",
+          "url": "dsl-mixin-7.0.5+asset-redownload-sources.jar",
+          "size": 1418,
+          "sha512": "183ce27e9f8f4663d6fcfc18540f35cffdf6929e1b386e15eacb0d76c6051914d346de20c31458a520c7775192043903c856ede2fb7992aff19a8354c4d5bf8a",
+          "sha256": "436421db236f2955934140f64d4d6ae6b3bcf00c6d67115262e783edd667dcaa",
+          "sha1": "b3c3f965aad5bfff9d25d2200324a444f574e905",
+          "md5": "8b3241042cf7b95b3077c13333f22724"
+        }
+      ]
+    }
+  ]
+}

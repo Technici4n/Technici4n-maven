@@ -1,0 +1,324 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.neoforged.gradle",
+    "module": "dsl-neoform",
+    "version": "7.0.5+asset-redownload",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "23.0.0"
+          },
+          "excludes": [
+            {
+              "group": "org.ow2.asm",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.minecraftforge",
+          "module": "groovydslimprover",
+          "version": {
+            "requires": "1.0.4"
+          },
+          "excludes": [
+            {
+              "group": "org.ow2.asm",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.minecraftforge",
+          "module": "groovydslimprover",
+          "version": {
+            "requires": "1.0.4"
+          },
+          "excludes": [
+            {
+              "group": "org.ow2.asm",
+              "module": "*"
+            }
+          ],
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "groovydslimprover",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "base"
+            }
+          }
+        },
+        {
+          "group": "net.minecraftforge",
+          "module": "groovydslimprover",
+          "version": {
+            "requires": "1.0.4"
+          },
+          "excludes": [
+            {
+              "group": "org.ow2.asm",
+              "module": "*"
+            }
+          ],
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "groovydslimprover",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "runtime"
+            }
+          }
+        },
+        {
+          "group": "net.neoforged.gradle",
+          "module": "dsl-common",
+          "version": {
+            "requires": "7.0.5+asset-redownload"
+          },
+          "excludes": [
+            {
+              "group": "org.ow2.asm",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.neoforged.gradle",
+          "module": "utils",
+          "version": {
+            "requires": "7.0.5+asset-redownload"
+          },
+          "excludes": [
+            {
+              "group": "org.ow2.asm",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-all",
+          "version": {
+            "requires": "3.0.15"
+          },
+          "excludes": [
+            {
+              "group": "org.ow2.asm",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.9.0"
+          },
+          "excludes": [
+            {
+              "group": "org.ow2.asm",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "dsl-neoform-7.0.5+asset-redownload.jar",
+          "url": "dsl-neoform-7.0.5+asset-redownload.jar",
+          "size": 12683,
+          "sha512": "06448fc8217ce9cae15602bd555dfd17c644d2a12b9673f242fc5eedae120ca98b0bfaa157e89f98338264123a5d47741f4531b041a4a832c8f0da3e48928cce",
+          "sha256": "3318c90ef53139eade968ac307aafe780dd584bb3e30cddc7a37dc249378ad65",
+          "sha1": "381c27d30ccb2b369ddbcd31637237d3ba91a931",
+          "md5": "0196d1c1785c5c6580b09a88afab1ae0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "23.0.0"
+          },
+          "excludes": [
+            {
+              "group": "org.ow2.asm",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.minecraftforge",
+          "module": "groovydslimprover",
+          "version": {
+            "requires": "1.0.4"
+          },
+          "excludes": [
+            {
+              "group": "org.ow2.asm",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.minecraftforge",
+          "module": "groovydslimprover",
+          "version": {
+            "requires": "1.0.4"
+          },
+          "excludes": [
+            {
+              "group": "org.ow2.asm",
+              "module": "*"
+            }
+          ],
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "groovydslimprover",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "base"
+            }
+          }
+        },
+        {
+          "group": "net.minecraftforge",
+          "module": "groovydslimprover",
+          "version": {
+            "requires": "1.0.4"
+          },
+          "excludes": [
+            {
+              "group": "org.ow2.asm",
+              "module": "*"
+            }
+          ],
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "groovydslimprover",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "runtime"
+            }
+          }
+        },
+        {
+          "group": "net.neoforged.gradle",
+          "module": "dsl-common",
+          "version": {
+            "requires": "7.0.5+asset-redownload"
+          },
+          "excludes": [
+            {
+              "group": "org.ow2.asm",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.neoforged.gradle",
+          "module": "utils",
+          "version": {
+            "requires": "7.0.5+asset-redownload"
+          },
+          "excludes": [
+            {
+              "group": "org.ow2.asm",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-all",
+          "version": {
+            "requires": "3.0.15"
+          },
+          "excludes": [
+            {
+              "group": "org.ow2.asm",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.9.0"
+          },
+          "excludes": [
+            {
+              "group": "org.ow2.asm",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "dsl-neoform-7.0.5+asset-redownload.jar",
+          "url": "dsl-neoform-7.0.5+asset-redownload.jar",
+          "size": 12683,
+          "sha512": "06448fc8217ce9cae15602bd555dfd17c644d2a12b9673f242fc5eedae120ca98b0bfaa157e89f98338264123a5d47741f4531b041a4a832c8f0da3e48928cce",
+          "sha256": "3318c90ef53139eade968ac307aafe780dd584bb3e30cddc7a37dc249378ad65",
+          "sha1": "381c27d30ccb2b369ddbcd31637237d3ba91a931",
+          "md5": "0196d1c1785c5c6580b09a88afab1ae0"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "dsl-neoform-7.0.5+asset-redownload-sources.jar",
+          "url": "dsl-neoform-7.0.5+asset-redownload-sources.jar",
+          "size": 6970,
+          "sha512": "f21897eb03dd16bd5123fde601cd510179af795df13da0b30a3b7a4c9856bb635ae49ab569876bf2d6a2093bd0edb053f38b6d999bc74ba36bf5d08db1c4f017",
+          "sha256": "81d8f866caa129b519ca79158d88f61bbdd076cb8de17265fa0200ee98498d70",
+          "sha1": "fc7d54a2b908fafb539efe12991d54970a315f6c",
+          "md5": "29c0a51b5e3c34fff63ed3dd1c17c958"
+        }
+      ]
+    }
+  ]
+}

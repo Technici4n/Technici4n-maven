@@ -3,11 +3,11 @@
   <groupId>net.neoforged.gradle.vanilla</groupId>
   <artifactId>net.neoforged.gradle.vanilla.gradle.plugin</artifactId>
   <versioning>
-    <latest>7.0.57</latest>
-    <release>7.0.57</release>
+    <latest>7.0.5+asset-redownload</latest>
+    <release>7.0.5+asset-redownload</release>
     <versions>
-      <version>7.0.57</version>
+      <version>7.0.5+asset-redownload</version>
     </versions>
-    <lastUpdated>20231030233750</lastUpdated>
+    <lastUpdated>20231030235732</lastUpdated>
   </versioning>
 </metadata>

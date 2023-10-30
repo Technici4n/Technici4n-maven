@@ -3,11 +3,11 @@
   <groupId>net.neoforged.gradle</groupId>
   <artifactId>mixin</artifactId>
   <versioning>
-    <latest>7.0.57</latest>
-    <release>7.0.57</release>
+    <latest>7.0.5+asset-redownload</latest>
+    <release>7.0.5+asset-redownload</release>
     <versions>
-      <version>7.0.57</version>
+      <version>7.0.5+asset-redownload</version>
     </versions>
-    <lastUpdated>20231030233813</lastUpdated>
+    <lastUpdated>20231030235733</lastUpdated>
   </versioning>
 </metadata>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>net.neoforged.gradle</groupId>
+  <artifactId>dsl-vanilla</artifactId>
+  <versioning>
+    <latest>7.0.5+asset-redownload</latest>
+    <release>7.0.5+asset-redownload</release>
+    <versions>
+      <version>7.0.5+asset-redownload</version>
+    </versions>
+    <lastUpdated>20231030235733</lastUpdated>
+  </versioning>
+</metadata>
